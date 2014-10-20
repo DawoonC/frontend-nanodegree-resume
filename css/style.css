@@ -141,22 +141,22 @@ span {
 #letsConnect {
   text-align: center;
 }
-@media only screen and (max-width: 1024px) {
+/**@media only screen and (max-width: 1024px) {
   #letsConnect {
-    margin-top: 5%;
+    margin-top: 10px;
   }
 }
-/*@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .biopic {
     width: 175px;
   }
 }*/
 
 @media only screen and (max-width: 750px) {
-  #letsConnect {
-    margin-top: 10%;
+  /**#letsConnect {
+    margin-top: 10px;
   }
-  /*.biopic {
+  .biopic {
     width: 150px;
   }*/
   
@@ -166,14 +166,14 @@ span {
 }
 #map {
   display: block;
-  height: 90%;
+  height: 360px;
   margin-left: 5%;
   margin-right: 5%;
 }
 #mapDiv {
-  height: 400px;
+  height: 500px;
   width: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 20px;
 }
 @media only screen and (min-width: 750px) {
   #skillsH3, #skills, .biopic {

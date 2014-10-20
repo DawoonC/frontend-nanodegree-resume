@@ -130,8 +130,3 @@ a.no-click {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 370px) {
-  #map {
-    height: 70%;
-  }
-}
