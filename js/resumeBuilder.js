@@ -217,13 +217,13 @@ var project = {
     "url": "http://dw-resume.appspot.com",
     "dates": "2014",
     "description": "This web page was a project for Udacity nanodegree. The project was built on Google App Engine.",
-    "image": "images/dw_resume_s.jpg"
+    "image": "images/dw_resume_s.png"
   }, {
     "title": "DW Frogger",
     "url": "http://dw-frogger.appspot.com",
     "dates": "2014",
     "description": "This web page was a project for Udacity nanodegree. The project was built on Google App Engine.",
-    "image": "images/dw_frogger_s.jpg"
+    "image": "images/dw_frogger_s.png"
   }],
   display: function() {
     for (var e in project.projects) {
