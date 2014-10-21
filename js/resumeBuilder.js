@@ -155,6 +155,11 @@ var education = {
     "school": "Udacity",
     "dates": "October 2014 - October 2014",
     "url": "https://www.udacity.com/course/ud804"
+  }, {
+    "title": "Object-Oriented JavaScript",
+    "school": "Udacity",
+    "dates": "October 2014 - October 2014",
+    "url": "https://www.udacity.com/course/ud015"
   }],
   displaySchools: function() {
     for (var e in education.schools) {
@@ -207,6 +212,18 @@ var project = {
     "dates": "2014",
     "description": "This web page was a project for Udacity nanodegree. The project was built on Google App Engine and Bootstrap.",
     "image": "images/dw_portfolio_s.jpg"
+  }, {
+    "title": "DW Resume",
+    "url": "http://dw-resume.appspot.com",
+    "dates": "2014",
+    "description": "This web page was a project for Udacity nanodegree. The project was built on Google App Engine.",
+    "image": "images/dw_resume_s.jpg"
+  }, {
+    "title": "DW Frogger",
+    "url": "http://dw-frogger.appspot.com",
+    "dates": "2014",
+    "description": "This web page was a project for Udacity nanodegree. The project was built on Google App Engine.",
+    "image": "images/dw_frogger_s.jpg"
   }],
   display: function() {
     for (var e in project.projects) {
