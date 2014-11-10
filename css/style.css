@@ -4,7 +4,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-.education-entry, .work-entry, .project-entry {
+.education-entry, .work-entry, .project-entry, .sum-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -55,7 +55,8 @@ h2, h3, h4, h5 {
 p {
   font-size: 1em;
   color: #535353;
-  line-height: 21px;
+  line-height: 25px;
+  letter-spacing: 1px;
 }
 a {
   color: #AB3C5C;

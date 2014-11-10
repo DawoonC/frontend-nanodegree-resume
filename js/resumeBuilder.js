@@ -1,7 +1,7 @@
 var bio = {
   "name": "Dawoon Choi",
   "role": "Web Developer",
-  "welcomeMessage": "Hi! I'm Dawoon, and I like learning and coding",
+  "welcomeMessage": "Hi! I'm Dawoon, and I love learning and coding",
   "contacts": {
     "mobile": "+82 10 3111 9759",
     "email": "cdw_3@naver.com",
@@ -36,6 +36,17 @@ var bio = {
     }
   }
 };
+
+var des = "Once an athlete, now a developer. <br><br>I'm currently learning and developing front-end web, but my interests are not limited to front-end. I'm also very interested in back-end, mobile apps, and machine learning. <br>My goal is to work as a software engineer in US and contribute to big changes."
+
+var summary = {
+  "description": des,
+  display: function() {
+    $("#summary").append(HTMLsumStart);
+    var formattedDescription = HTMLsumDescription.replace("%data%", summary.description);
+    $(".sum-entry:last").append(formattedDescription);
+  }
+}
 
 var work = {
   "jobs": [{
@@ -254,6 +265,7 @@ var project = {
 
 // Calls display functions in each section
 bio.display();
+summary.display();
 project.display();
 work.display();
 education.displaySchools();

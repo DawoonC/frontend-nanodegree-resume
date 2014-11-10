@@ -16,6 +16,9 @@
 #header {
   padding-bottom: 20px;
 }
+.expand-header {
+  margin-bottom: 30px;
+}
 .biopic {
   margin-right: 30px;
   padding: 0px;
@@ -27,16 +30,17 @@
 #skillsH3 {
   font-weight: 600;
 }
+.fixed-nav {
+  position: fixed;
+  top: 0;
+}
 #nav-bar {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  /*position: fixed;*/
   
   background-color: #AB3C5C;
-  /*left: 0;
-  bottom: 0;*/
   
   overflow: hidden;
   z-index: 100;
@@ -62,6 +66,9 @@
   padding: 0;
   border: none;
 }
+.sum-entry {
+  padding-bottom: 10px;
+}
 a.nav-item {
   color: white;
   height: auto;
@@ -83,6 +90,13 @@ a.nav-item:focus {
 }
 a.nav-item:active {
   background-color: rgba(255, 255, 255, 0.4);
+}
+.sections {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+#mapDiv {
+  padding-top: 60px;
 }
 .sub-title {
   font-size: 1.8em;
